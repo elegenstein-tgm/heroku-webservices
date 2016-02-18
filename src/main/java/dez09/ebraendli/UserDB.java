@@ -1,9 +1,6 @@
 package dez09.ebraendli;
 
 import javax.naming.Context;
-import javax.naming.InitialContext;
-import javax.naming.NamingException;
-import javax.sql.DataSource;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.sql.*;
@@ -55,9 +52,9 @@ public class UserDB {
             Connection conn = getConnection();
             Statement stat = conn.createStatement();
             stat.execute("INSERT INTO user VALUES ('" + uemail+"','" +uname+ "','"+upwd+"')");
-        } catch (NamingException e) {
-            e.printStackTrace();
         } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (URISyntaxException e) {
             e.printStackTrace();
         }
 
