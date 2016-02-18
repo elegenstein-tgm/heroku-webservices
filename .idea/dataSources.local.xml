@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="sdsa" uuid="9624eb9d-aa73-4aa0-95d5-e7c3b30b83f5">
+      <secret-storage>master_key</secret-storage>
+    </data-source>
+    <data-source name="tomcat" uuid="a20b3d96-5a2d-4fc0-80fc-4e4363b6f3e0">
+      <secret-storage>master_key</secret-storage>
+    </data-source>
+  </component>
+</project>

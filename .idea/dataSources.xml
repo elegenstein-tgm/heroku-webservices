@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3375518821">
+    <data-source source="LOCAL" name="sdsa" uuid="9624eb9d-aa73-4aa0-95d5-e7c3b30b83f5">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/dez09.db</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="tomcat" uuid="a20b3d96-5a2d-4fc0-80fc-4e4363b6f3e0">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:/usr/share/tomcat6/dbs/dez09.db</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
