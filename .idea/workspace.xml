@@ -73,11 +73,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="context.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="context.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19494584">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RESTfulExample.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RESTfulExample.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -113,22 +123,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDB.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserDB.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dez09/ebraendli/UserDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.71841156">
+              <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1455833141652" expanded="true" signature="820:838" placeholder="select usern..." />
-                <marker date="1455833141652" expanded="true" signature="820:839" placeholder="select usern..admin..." />
-                <marker date="1455833141652" expanded="true" signature="820:862" placeholder="select usern..user..." />
-                <marker date="1455833141652" expanded="true" signature="820:892" placeholder="select usern..user..." />
-                <marker date="1455833141652" expanded="true" signature="820:905" placeholder="select uemai..user..." />
-                <marker date="1455833141652" expanded="true" signature="1491:1517" placeholder="INSERT INTO ..." />
-                <marker date="1455833141652" expanded="true" signature="1491:1532" placeholder="INSERT INTO ..." />
-                <marker date="1455833141652" expanded="true" signature="1491:1555" placeholder="INSERT INTO ..." />
-                <marker date="1455833141652" expanded="true" signature="1491:1556" placeholder="INSERT INTO ..." />
+                <marker date="1455838405166" expanded="true" signature="1242:1260" placeholder="select usern..." />
+                <marker date="1455838405166" expanded="true" signature="1242:1261" placeholder="select usern..admin..." />
+                <marker date="1455838405166" expanded="true" signature="1242:1284" placeholder="select usern..user..." />
+                <marker date="1455838405166" expanded="true" signature="1242:1314" placeholder="select usern..user..." />
+                <marker date="1455838405166" expanded="true" signature="1242:1327" placeholder="select uemai..user..." />
+                <marker date="1455838405166" expanded="true" signature="1915:1941" placeholder="INSERT INTO ..." />
+                <marker date="1455838405166" expanded="true" signature="1915:1956" placeholder="INSERT INTO ..." />
+                <marker date="1455838405166" expanded="true" signature="1915:1979" placeholder="INSERT INTO ..." />
+                <marker date="1455838405166" expanded="true" signature="1915:1980" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -162,8 +172,8 @@
         <option value="$PROJECT_DIR$/src/main/java/dez09/ebraendli/HelloWorldService.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a20b3d96-5a2d-4fc0-80fc-4e4363b6f3e0/console.sql" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/dez09/ebraendli/UserDB.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/dez09/ebraendli/UserDB.java" />
       </list>
     </option>
   </component>
@@ -483,6 +493,7 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="commen&#9;ACTION&#9;CommentByLineComment" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1231,16 +1242,16 @@
       <updated>1455818228706</updated>
       <workItem from="1455818232746" duration="15550000" />
       <workItem from="1455834218744" duration="196000" />
-      <workItem from="1455836474992" duration="928000" />
+      <workItem from="1455836474992" duration="1930000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16674000" />
+    <option name="totallyTimeSpent" value="17676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1280" height="1392" extended-state="4" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1248,10 +1259,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967892" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32498044" sideWeight="0.50323623" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32811275" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32436588" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32811275" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32811275" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5088997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1337,15 +1348,15 @@
           <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1455833141652" expanded="true" signature="820:838" placeholder="select usern..." />
-            <marker date="1455833141652" expanded="true" signature="820:839" placeholder="select usern..admin..." />
-            <marker date="1455833141652" expanded="true" signature="820:862" placeholder="select usern..user..." />
-            <marker date="1455833141652" expanded="true" signature="820:892" placeholder="select usern..user..." />
-            <marker date="1455833141652" expanded="true" signature="820:905" placeholder="select uemai..user..." />
-            <marker date="1455833141652" expanded="true" signature="1491:1517" placeholder="INSERT INTO ..." />
-            <marker date="1455833141652" expanded="true" signature="1491:1532" placeholder="INSERT INTO ..." />
-            <marker date="1455833141652" expanded="true" signature="1491:1555" placeholder="INSERT INTO ..." />
-            <marker date="1455833141652" expanded="true" signature="1491:1556" placeholder="INSERT INTO ..." />
+            <marker date="1455838405166" expanded="true" signature="1242:1260" placeholder="select usern..." />
+            <marker date="1455838405166" expanded="true" signature="1242:1261" placeholder="select usern..admin..." />
+            <marker date="1455838405166" expanded="true" signature="1242:1284" placeholder="select usern..user..." />
+            <marker date="1455838405166" expanded="true" signature="1242:1314" placeholder="select usern..user..." />
+            <marker date="1455838405166" expanded="true" signature="1242:1327" placeholder="select uemai..user..." />
+            <marker date="1455838405166" expanded="true" signature="1915:1941" placeholder="INSERT INTO ..." />
+            <marker date="1455838405166" expanded="true" signature="1915:1956" placeholder="INSERT INTO ..." />
+            <marker date="1455838405166" expanded="true" signature="1915:1979" placeholder="INSERT INTO ..." />
+            <marker date="1455838405166" expanded="true" signature="1915:1980" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -1396,15 +1407,15 @@
           <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1455833141652" expanded="true" signature="820:838" placeholder="select usern..." />
-            <marker date="1455833141652" expanded="true" signature="820:839" placeholder="select usern..admin..." />
-            <marker date="1455833141652" expanded="true" signature="820:862" placeholder="select usern..user..." />
-            <marker date="1455833141652" expanded="true" signature="820:892" placeholder="select usern..user..." />
-            <marker date="1455833141652" expanded="true" signature="820:905" placeholder="select uemai..user..." />
-            <marker date="1455833141652" expanded="true" signature="1491:1517" placeholder="INSERT INTO ..." />
-            <marker date="1455833141652" expanded="true" signature="1491:1532" placeholder="INSERT INTO ..." />
-            <marker date="1455833141652" expanded="true" signature="1491:1555" placeholder="INSERT INTO ..." />
-            <marker date="1455833141652" expanded="true" signature="1491:1556" placeholder="INSERT INTO ..." />
+            <marker date="1455838405166" expanded="true" signature="1242:1260" placeholder="select usern..." />
+            <marker date="1455838405166" expanded="true" signature="1242:1261" placeholder="select usern..admin..." />
+            <marker date="1455838405166" expanded="true" signature="1242:1284" placeholder="select usern..user..." />
+            <marker date="1455838405166" expanded="true" signature="1242:1314" placeholder="select usern..user..." />
+            <marker date="1455838405166" expanded="true" signature="1242:1327" placeholder="select uemai..user..." />
+            <marker date="1455838405166" expanded="true" signature="1915:1941" placeholder="INSERT INTO ..." />
+            <marker date="1455838405166" expanded="true" signature="1915:1956" placeholder="INSERT INTO ..." />
+            <marker date="1455838405166" expanded="true" signature="1915:1979" placeholder="INSERT INTO ..." />
+            <marker date="1455838405166" expanded="true" signature="1915:1980" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -1448,30 +1459,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dez09/ebraendli/UserDB.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1455833141652" expanded="true" signature="820:838" placeholder="select usern..." />
-            <marker date="1455833141652" expanded="true" signature="820:839" placeholder="select usern..admin..." />
-            <marker date="1455833141652" expanded="true" signature="820:862" placeholder="select usern..user..." />
-            <marker date="1455833141652" expanded="true" signature="820:892" placeholder="select usern..user..." />
-            <marker date="1455833141652" expanded="true" signature="820:905" placeholder="select uemai..user..." />
-            <marker date="1455833141652" expanded="true" signature="1491:1517" placeholder="INSERT INTO ..." />
-            <marker date="1455833141652" expanded="true" signature="1491:1532" placeholder="INSERT INTO ..." />
-            <marker date="1455833141652" expanded="true" signature="1491:1555" placeholder="INSERT INTO ..." />
-            <marker date="1455833141652" expanded="true" signature="1491:1556" placeholder="INSERT INTO ..." />
-          </folding>
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
+    <entry file="file://$PROJECT_DIR$/RESTfulExample.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19494584">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dez09/ebraendli/UserDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71841156">
+          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1455838405166" expanded="true" signature="1242:1260" placeholder="select usern..." />
+            <marker date="1455838405166" expanded="true" signature="1242:1261" placeholder="select usern..admin..." />
+            <marker date="1455838405166" expanded="true" signature="1242:1284" placeholder="select usern..user..." />
+            <marker date="1455838405166" expanded="true" signature="1242:1314" placeholder="select usern..user..." />
+            <marker date="1455838405166" expanded="true" signature="1242:1327" placeholder="select uemai..user..." />
+            <marker date="1455838405166" expanded="true" signature="1915:1941" placeholder="INSERT INTO ..." />
+            <marker date="1455838405166" expanded="true" signature="1915:1956" placeholder="INSERT INTO ..." />
+            <marker date="1455838405166" expanded="true" signature="1915:1979" placeholder="INSERT INTO ..." />
+            <marker date="1455838405166" expanded="true" signature="1915:1980" placeholder="INSERT INTO ..." />
+          </folding>
         </state>
       </provider>
     </entry>
