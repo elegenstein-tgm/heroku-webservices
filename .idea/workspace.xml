@@ -123,23 +123,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDB.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserDB.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dez09/ebraendli/UserDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71841156">
-              <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1455838405166" expanded="true" signature="1242:1260" placeholder="select usern..." />
-                <marker date="1455838405166" expanded="true" signature="1242:1261" placeholder="select usern..admin..." />
-                <marker date="1455838405166" expanded="true" signature="1242:1284" placeholder="select usern..user..." />
-                <marker date="1455838405166" expanded="true" signature="1242:1314" placeholder="select usern..user..." />
-                <marker date="1455838405166" expanded="true" signature="1242:1327" placeholder="select uemai..user..." />
-                <marker date="1455838405166" expanded="true" signature="1915:1941" placeholder="INSERT INTO ..." />
-                <marker date="1455838405166" expanded="true" signature="1915:1956" placeholder="INSERT INTO ..." />
-                <marker date="1455838405166" expanded="true" signature="1915:1979" placeholder="INSERT INTO ..." />
-                <marker date="1455838405166" expanded="true" signature="1915:1980" placeholder="INSERT INTO ..." />
+                <marker date="1455838461333" expanded="true" signature="1140:1158" placeholder="select usern..." />
+                <marker date="1455838461333" expanded="true" signature="1140:1159" placeholder="select usern..admin..." />
+                <marker date="1455838461333" expanded="true" signature="1140:1182" placeholder="select usern..user..." />
+                <marker date="1455838461333" expanded="true" signature="1140:1212" placeholder="select usern..user..." />
+                <marker date="1455838461333" expanded="true" signature="1140:1225" placeholder="select uemai..user..." />
+                <marker date="1455838461333" expanded="true" signature="1813:1839" placeholder="INSERT INTO ..." />
+                <marker date="1455838461333" expanded="true" signature="1813:1854" placeholder="INSERT INTO ..." />
+                <marker date="1455838461333" expanded="true" signature="1813:1877" placeholder="INSERT INTO ..." />
+                <marker date="1455838461333" expanded="true" signature="1813:1878" placeholder="INSERT INTO ..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -174,6 +184,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/dez09/ebraendli/UserDB.java" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -1242,12 +1253,12 @@
       <updated>1455818228706</updated>
       <workItem from="1455818232746" duration="15550000" />
       <workItem from="1455834218744" duration="196000" />
-      <workItem from="1455836474992" duration="1930000" />
+      <workItem from="1455836474992" duration="2249000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17676000" />
+    <option name="totallyTimeSpent" value="17995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1280" height="1392" extended-state="4" />
@@ -1348,15 +1359,15 @@
           <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1455838405166" expanded="true" signature="1242:1260" placeholder="select usern..." />
-            <marker date="1455838405166" expanded="true" signature="1242:1261" placeholder="select usern..admin..." />
-            <marker date="1455838405166" expanded="true" signature="1242:1284" placeholder="select usern..user..." />
-            <marker date="1455838405166" expanded="true" signature="1242:1314" placeholder="select usern..user..." />
-            <marker date="1455838405166" expanded="true" signature="1242:1327" placeholder="select uemai..user..." />
-            <marker date="1455838405166" expanded="true" signature="1915:1941" placeholder="INSERT INTO ..." />
-            <marker date="1455838405166" expanded="true" signature="1915:1956" placeholder="INSERT INTO ..." />
-            <marker date="1455838405166" expanded="true" signature="1915:1979" placeholder="INSERT INTO ..." />
-            <marker date="1455838405166" expanded="true" signature="1915:1980" placeholder="INSERT INTO ..." />
+            <marker date="1455838461333" expanded="true" signature="1140:1158" placeholder="select usern..." />
+            <marker date="1455838461333" expanded="true" signature="1140:1159" placeholder="select usern..admin..." />
+            <marker date="1455838461333" expanded="true" signature="1140:1182" placeholder="select usern..user..." />
+            <marker date="1455838461333" expanded="true" signature="1140:1212" placeholder="select usern..user..." />
+            <marker date="1455838461333" expanded="true" signature="1140:1225" placeholder="select uemai..user..." />
+            <marker date="1455838461333" expanded="true" signature="1813:1839" placeholder="INSERT INTO ..." />
+            <marker date="1455838461333" expanded="true" signature="1813:1854" placeholder="INSERT INTO ..." />
+            <marker date="1455838461333" expanded="true" signature="1813:1877" placeholder="INSERT INTO ..." />
+            <marker date="1455838461333" expanded="true" signature="1813:1878" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -1407,15 +1418,15 @@
           <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1455838405166" expanded="true" signature="1242:1260" placeholder="select usern..." />
-            <marker date="1455838405166" expanded="true" signature="1242:1261" placeholder="select usern..admin..." />
-            <marker date="1455838405166" expanded="true" signature="1242:1284" placeholder="select usern..user..." />
-            <marker date="1455838405166" expanded="true" signature="1242:1314" placeholder="select usern..user..." />
-            <marker date="1455838405166" expanded="true" signature="1242:1327" placeholder="select uemai..user..." />
-            <marker date="1455838405166" expanded="true" signature="1915:1941" placeholder="INSERT INTO ..." />
-            <marker date="1455838405166" expanded="true" signature="1915:1956" placeholder="INSERT INTO ..." />
-            <marker date="1455838405166" expanded="true" signature="1915:1979" placeholder="INSERT INTO ..." />
-            <marker date="1455838405166" expanded="true" signature="1915:1980" placeholder="INSERT INTO ..." />
+            <marker date="1455838461333" expanded="true" signature="1140:1158" placeholder="select usern..." />
+            <marker date="1455838461333" expanded="true" signature="1140:1159" placeholder="select usern..admin..." />
+            <marker date="1455838461333" expanded="true" signature="1140:1182" placeholder="select usern..user..." />
+            <marker date="1455838461333" expanded="true" signature="1140:1212" placeholder="select usern..user..." />
+            <marker date="1455838461333" expanded="true" signature="1140:1225" placeholder="select uemai..user..." />
+            <marker date="1455838461333" expanded="true" signature="1813:1839" placeholder="INSERT INTO ..." />
+            <marker date="1455838461333" expanded="true" signature="1813:1854" placeholder="INSERT INTO ..." />
+            <marker date="1455838461333" expanded="true" signature="1813:1877" placeholder="INSERT INTO ..." />
+            <marker date="1455838461333" expanded="true" signature="1813:1878" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -1477,20 +1488,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dez09/ebraendli/UserDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71841156">
-          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1455838405166" expanded="true" signature="1242:1260" placeholder="select usern..." />
-            <marker date="1455838405166" expanded="true" signature="1242:1261" placeholder="select usern..admin..." />
-            <marker date="1455838405166" expanded="true" signature="1242:1284" placeholder="select usern..user..." />
-            <marker date="1455838405166" expanded="true" signature="1242:1314" placeholder="select usern..user..." />
-            <marker date="1455838405166" expanded="true" signature="1242:1327" placeholder="select uemai..user..." />
-            <marker date="1455838405166" expanded="true" signature="1915:1941" placeholder="INSERT INTO ..." />
-            <marker date="1455838405166" expanded="true" signature="1915:1956" placeholder="INSERT INTO ..." />
-            <marker date="1455838405166" expanded="true" signature="1915:1979" placeholder="INSERT INTO ..." />
-            <marker date="1455838405166" expanded="true" signature="1915:1980" placeholder="INSERT INTO ..." />
+            <marker date="1455838461333" expanded="true" signature="1140:1158" placeholder="select usern..." />
+            <marker date="1455838461333" expanded="true" signature="1140:1159" placeholder="select usern..admin..." />
+            <marker date="1455838461333" expanded="true" signature="1140:1182" placeholder="select usern..user..." />
+            <marker date="1455838461333" expanded="true" signature="1140:1212" placeholder="select usern..user..." />
+            <marker date="1455838461333" expanded="true" signature="1140:1225" placeholder="select uemai..user..." />
+            <marker date="1455838461333" expanded="true" signature="1813:1839" placeholder="INSERT INTO ..." />
+            <marker date="1455838461333" expanded="true" signature="1813:1854" placeholder="INSERT INTO ..." />
+            <marker date="1455838461333" expanded="true" signature="1813:1877" placeholder="INSERT INTO ..." />
+            <marker date="1455838461333" expanded="true" signature="1813:1878" placeholder="INSERT INTO ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
