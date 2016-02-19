@@ -32,9 +32,7 @@ public class HelloWorldService {
 	@Path("register/{email}/{user}/{pwd}")
 	public Response getReg(@PathParam("email") String email, @PathParam("user") String usr, @PathParam("pwd") String pwd){
 		String out= usr + "\n"+ pwd;
-		UserDB.putUser(email, usr, pwd);
-
-		return Response.status(200).entity(out).build();
+		return Response.status(200).entity(UserDB.putUser(email, usr, pwd)).build();
 	}
 	@GET
 	@Path("login")
@@ -45,11 +43,11 @@ public class HelloWorldService {
 	}
 
 	@POST
-	@Path("login/{email}/{user}/{pwd}")
-	public Response getLogin(@PathParam("email") String email, @PathParam("user") String usr, @PathParam("pwd") String pwd){
+	@Path("login/{user}/{pwd}")
+	public Response getLogin(@PathParam("user") String usr, @PathParam("pwd") String pwd){
 		String out= usr + "\n"+ pwd;
 
-		return Response.status(200).entity(out).build();
+		return Response.status(200).entity(UserDB.getUser(usr,pwd)).build();
 	}
 
  

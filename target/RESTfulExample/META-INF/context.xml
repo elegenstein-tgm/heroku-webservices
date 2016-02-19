@@ -3,8 +3,9 @@
     <Resource name="jdbc/dez09"
               auth="Container"
               type="javax.sql.DataSource"
-              driverClassName="org.sqlite.JDBC"
-              url="jdbc:sqlite:/${catalina.home}/dbs/dez09.db"
-              factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory">
+              driverClassName="org.postgresql.Driver"
+              url=" jdbc:postgres://oyckunndziiykq:TvrvnjLbMhKoBYWAZHVhXpBvoZ@ec2-54-217-202-108.eu-west-1.compute.amazonaws.com:5432/datfquucvmf5u3"
+              >
     </Resource>
 </Context>
+<!-- factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory"-->

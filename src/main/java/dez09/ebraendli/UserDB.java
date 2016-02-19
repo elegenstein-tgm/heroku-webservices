@@ -1,7 +1,5 @@
 package dez09.ebraendli;
 
-import javax.naming.Context;
-import java.net.URI;
 import java.net.URISyntaxException;
 import java.sql.*;
 
@@ -18,13 +16,14 @@ public class UserDB {
 
 
     private static Connection getConnection() throws URISyntaxException, SQLException {
-        URI dbUri = new URI(System.getenv("DATABASE_URL"));
-
-        String username = dbUri.getUserInfo().split(":")[0];
-        String password = dbUri.getUserInfo().split(":")[1];
-        String dbUrl = "jdbc:postgresql://" + dbUri.getHost() + ':' + dbUri.getPort() + dbUri.getPath();
-
-        return DriverManager.getConnection(dbUrl, username, password);
+        String dbUrl = System.getenv("JDBC_DATABASE_URL");
+        try {
+            Class.forName("org.postgresql.Driver");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+            System.err.println("pg not found");
+        }
+        return DriverManager.getConnection(dbUrl+"?ssl=true");
     }
 
     public static String getUser(String uname, String upwd) {
@@ -35,7 +34,9 @@ public class UserDB {
             Connection conn = getConnection();
             Statement stat = conn.createStatement();
             ResultSet rs = stat.executeQuery("select uemail from \"user\" WHERE uname LIKE '" + uname + "' AND upwd LIKE '" + upwd + "'");
-            return rs.getString(1);
+            if (rs.next())
+                return "Hello user of email-adr: "+ rs.getString(1);
+            return "Meh. I dont think you should access that....";
         } catch (SQLException se) {
             se.printStackTrace();
         } catch (URISyntaxException e) {
@@ -43,21 +44,36 @@ public class UserDB {
         }
         return null;
     }
-    public static void putUser(String uemail, String uname, String upwd){
-        Context ctx = null;
+    public static String putUser(String uemail, String uname, String upwd){
+      /*  Context ctx = null;
 
+        Hashtable env = new Hashtable();
+        env.put(Context.INITIAL_CONTEXT_FACTORY, "com.sun.jndi.fscontext.FSContextFactory");
+        env.put(Context.PROVIDER_URL, "file:/");
+        env.put(Context.OBJECT_FACTORIES, "foo.bar.ObjFactory");
+        env.put("foo", "bar");
+*/
         try {
-            //ctx = new InitialContext();
-            //DataSource ds = (DataSource)ctx.lookup("java:comp/env/jdbc/dez09");
+        //    ctx = new InitialContext(env);
+          //  ctx = (Context)ctx.lookup("java:comp/env");
+          //  System.out.println(ctx.getEnvironment());
+          //  DataSource ds = (DataSource)ctx.lookup("jdbc/dez09");
             Connection conn = getConnection();
             Statement stat = conn.createStatement();
-            stat.execute("INSERT INTO \"user\" VALUES ('" + uemail+"','" +uname+ "','"+upwd+"')");
+            if(!stat.executeQuery("SELECT *  from \"user\" where uemail like '"+uemail+"'").next()) {
+                stat.close();
+                stat = conn.createStatement();
+                stat.execute("INSERT INTO \"user\" VALUES ('" + uemail + "','" + uname + "','" + upwd + "')");
+                return "Successfully created!";
+            }
+            else
+                return "Something is wrong with your credentials";
         } catch (SQLException e) {
             e.printStackTrace();
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
-
+        return "that should never happen. Im so sorry for that!";
     }
 
 }

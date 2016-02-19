@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/dez09"
+              auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://ec2-54-217-202-108.eu-west-1.compute.amazonaws.com
+/datfquucvmf5u3?user=oyckunndziiykq&password=TvrvnjLbMhKoBYWAZHVhXpBvoZ;&ssl=true"
+              factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory">
+    </Resource>
+</Context>
