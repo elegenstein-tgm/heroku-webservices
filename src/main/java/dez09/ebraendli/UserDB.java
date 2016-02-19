@@ -34,7 +34,7 @@ public class UserDB {
 //            DataSource ds = (DataSource)ctx.lookup("java:comp/env/jdbc/dez09");
             Connection conn = getConnection();
             Statement stat = conn.createStatement();
-            ResultSet rs = stat.executeQuery("select uemail from user WHERE uname LIKE '" + uname + "' AND upwd LIKE '" + upwd + "'");
+            ResultSet rs = stat.executeQuery("select uemail from \"user\" WHERE uname LIKE '" + uname + "' AND upwd LIKE '" + upwd + "'");
             return rs.getString(1);
         } catch (SQLException se) {
             se.printStackTrace();
@@ -51,7 +51,7 @@ public class UserDB {
             //DataSource ds = (DataSource)ctx.lookup("java:comp/env/jdbc/dez09");
             Connection conn = getConnection();
             Statement stat = conn.createStatement();
-            stat.execute("INSERT INTO user VALUES ('" + uemail+"','" +uname+ "','"+upwd+"')");
+            stat.execute("INSERT INTO \"user\" VALUES ('" + uemail+"','" +uname+ "','"+upwd+"')");
         } catch (SQLException e) {
             e.printStackTrace();
         } catch (URISyntaxException e) {
