@@ -50,5 +50,4 @@ public class HelloWorldService {
 		return Response.status(200).entity(UserDB.getUser(usr,pwd)).build();
 	}
 
- 
 }

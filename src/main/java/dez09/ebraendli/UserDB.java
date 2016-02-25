@@ -27,6 +27,7 @@ public class UserDB {
     }
 
     public static String getUser(String uname, String upwd) {
+        uname = uname.toLowerCase();
         //LOG.info("getting name : " + this.name);
         try {
 //            Context ctx = new InitialContext();
@@ -44,7 +45,9 @@ public class UserDB {
         }
         return null;
     }
-    public static String putUser(String uemail, String uname, String upwd){
+    public static  String putUser(String uemail, String uname, String upwd){
+        uemail = uemail.toLowerCase();
+        uname = uname.toLowerCase();
       /*  Context ctx = null;
 
         Hashtable env = new Hashtable();
